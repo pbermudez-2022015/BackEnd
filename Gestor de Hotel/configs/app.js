@@ -8,6 +8,7 @@ import { config } from "dotenv"
 import userRoutes from '../src/user/user.routes.js'
 import hotelRoutes from '../src/hotel/hotel.routes.js'
 import bedroomsRoutes from '../src/bedrooms/bedrooms.routes.js'
+import eventRoutes from '../src/events/event.routes.js'
 
 
 
@@ -28,6 +29,7 @@ app.use(morgan('dev')) //Logs de solicitudes al servidor HTTP
 app.use('/user', userRoutes)
 app.use('/hotel', hotelRoutes)
 app.use('/bedroom', bedroomsRoutes)
+app.use('/event', eventRoutes)
 
 
 

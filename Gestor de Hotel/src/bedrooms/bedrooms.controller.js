@@ -5,9 +5,9 @@ import Bedrooms from './bedrooms.model.js'
 export const save = async(req,res)=>{
     try{
         let data = req.body
-        let beeroom = new Bedrooms(data)
-        await beedroom.save()
-        return res.send({message: `Registered succesfully, ${beedrom.name}`})
+        let bedroom = new Bedrooms(data)
+        await bedroom.save()
+        return res.send({message: `Registered succesfully, ${bedroom.name}`})
     }catch(err){
         console.error(err)
         return res.status(500).send({message: 'Error registering bedroom', err: err})
