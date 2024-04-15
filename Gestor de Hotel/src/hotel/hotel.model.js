@@ -19,6 +19,7 @@ const hotelSchema = mongoose.Schema({
         maxLength: 8,
         required: true
     }
+    
 },    {
         versionKey: false
 })

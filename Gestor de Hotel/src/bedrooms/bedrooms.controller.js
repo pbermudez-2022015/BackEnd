@@ -34,7 +34,7 @@ export const update = async (req,res) =>{
 export const deleteU = async (req,res)=>{
     try{
         let { id } = req.params
-        let deletedBedroom = await Hotel.findOneAndDelete({_id: id})
+        let deletedBedroom = await Bedrooms.findOneAndDelete({_id: id})
         if(!deletedBedroom) return res.status(404).send({message: 'Bedroom not found and not deleted'})
         return res.send({message: `Bedroom with name ${deletedBedroom.name} deleted successfully`})
     }catch(err){

@@ -1,0 +1,257 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Proyecto BackEnd",
+    "dateExported": "2024-04-14T23:58:33.250Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "1d86b28a-ca73-43ce-8f1c-a18d02f1ae45",
+            "name": "hotel",
+            "containerId": "",
+            "created": "2024-04-14T23:04:20.176Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "8afecb3e-8364-4052-b7d2-06e9c7781073",
+            "name": "bedroom",
+            "containerId": "",
+            "created": "2024-04-14T23:04:38.186Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "43d49a71-f13d-442f-a56b-1b0eb4036e29",
+            "colId": "47b866ef-e9de-425f-8e6b-bf36805d7c8f",
+            "containerId": "1d86b28a-ca73-43ce-8f1c-a18d02f1ae45",
+            "name": "save",
+            "url": "/hotel/save",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-04-14T23:04:05.303Z",
+            "modified": "2024-04-14T23:50:34.358Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Lunar"
+                    },
+                    {
+                        "name": "description",
+                        "value": "hotel ciudad"
+                    },
+                    {
+                        "name": "addres",
+                        "value": "Guatemala Guatemala"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "54265774"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "04543bee-d503-4534-90be-bbdadd136f06",
+            "colId": "47b866ef-e9de-425f-8e6b-bf36805d7c8f",
+            "containerId": "1d86b28a-ca73-43ce-8f1c-a18d02f1ae45",
+            "name": "update",
+            "url": "/hotel/update/661c635de76047a1d58d3b14",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-04-14T23:05:01.324Z",
+            "modified": "2024-04-14T23:50:20.192Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Luna Hotel"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "fa56aaa0-ae58-48ab-9b9c-660b0def230d",
+            "colId": "47b866ef-e9de-425f-8e6b-bf36805d7c8f",
+            "containerId": "1d86b28a-ca73-43ce-8f1c-a18d02f1ae45",
+            "name": "get",
+            "url": "/hotel/get",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-14T23:05:14.613Z",
+            "modified": "2024-04-14T23:48:34.992Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f0b34bd9-0905-4bcf-9910-5a2d70525c69",
+            "colId": "47b866ef-e9de-425f-8e6b-bf36805d7c8f",
+            "containerId": "1d86b28a-ca73-43ce-8f1c-a18d02f1ae45",
+            "name": "search",
+            "url": "/hotel/search",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-04-14T23:05:34.755Z",
+            "modified": "2024-04-14T23:49:10.732Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "search",
+                        "value": "T"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "43dd1761-2797-467d-a0e6-047ca4206a90",
+            "colId": "47b866ef-e9de-425f-8e6b-bf36805d7c8f",
+            "containerId": "1d86b28a-ca73-43ce-8f1c-a18d02f1ae45",
+            "name": "delete",
+            "url": "/hotel/delete/661c6bcae76047a1d58d3b19",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-04-14T23:05:42.453Z",
+            "modified": "2024-04-14T23:51:04.425Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5b9532db-1a9c-4cc2-9a76-bf2d0f8e2915",
+            "colId": "47b866ef-e9de-425f-8e6b-bf36805d7c8f",
+            "containerId": "8afecb3e-8364-4052-b7d2-06e9c7781073",
+            "name": "save",
+            "url": "/bedroom/save",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-04-14T23:51:26.021Z",
+            "modified": "2024-04-14T23:55:25.076Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Bedroom III"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Bedroom with ventiladtor"
+                    },
+                    {
+                        "name": "hotel",
+                        "value": "661c635de76047a1d58d3b14"
+                    },
+                    {
+                        "name": "price",
+                        "value": "250"
+                    },
+                    {
+                        "name": "number",
+                        "value": "1"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "26033704-a8dd-45af-b891-d9540a058421",
+            "colId": "47b866ef-e9de-425f-8e6b-bf36805d7c8f",
+            "containerId": "8afecb3e-8364-4052-b7d2-06e9c7781073",
+            "name": "update",
+            "url": "/bedroom/update/661c6c9be76047a1d58d3b1c",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2024-04-14T23:51:30.471Z",
+            "modified": "2024-04-14T23:57:29.790Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "description",
+                        "value": "Grand Suite with jacuzzi"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "443f861c-ab5f-4c2e-a83c-189eb6701096",
+            "colId": "47b866ef-e9de-425f-8e6b-bf36805d7c8f",
+            "containerId": "8afecb3e-8364-4052-b7d2-06e9c7781073",
+            "name": "delete",
+            "url": "/bedroom/delete/661c6c9be76047a1d58d3b1c",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-04-14T23:51:33.664Z",
+            "modified": "2024-04-14T23:57:51.863Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "98f2b1fa-c166-4e6e-bd53-0ac841d80bdd",
+            "colId": "47b866ef-e9de-425f-8e6b-bf36805d7c8f",
+            "containerId": "8afecb3e-8364-4052-b7d2-06e9c7781073",
+            "name": "get",
+            "url": "/bedroom/get",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-04-14T23:51:56.090Z",
+            "modified": "2024-04-14T23:55:41.646Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4ea9f8c3-ea6e-4690-b567-e43ceca6c05d",
+            "colId": "47b866ef-e9de-425f-8e6b-bf36805d7c8f",
+            "containerId": "8afecb3e-8364-4052-b7d2-06e9c7781073",
+            "name": "search",
+            "url": "/bedroom/search",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2024-04-14T23:52:00.898Z",
+            "modified": "2024-04-14T23:56:39.250Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "search",
+                        "value": "bed"
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2656"
+        }
+    }
+}
